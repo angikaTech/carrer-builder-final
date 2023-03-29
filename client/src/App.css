@@ -1,0 +1,124 @@
+/* .form-register .content {
+	
+	border-radius: 5px;
+	-o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 32px 115px 23px 75px;
+	border-style: solid;
+  border-color: rgb(192, 186, 186);
+}
+ */
+
+  .cnav-bg{
+    background: #f2184f !important;
+}
+
+.ctop-social {
+   
+    padding-right: 10px !important;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    margin: 2px 7px 2px 0;
+    width: 30px;
+    text-decoration: none;
+}
+
+.cheadericon{
+
+    margin-top: 40px;
+    padding-left: 13px;
+}
+
+.footerList{
+
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    list-style: none;
+    border-bottom: 1px dashed #d3d3d3;
+    text-decoration: none;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+a {
+
+    text-decoration: none;
+
+}
+
+a:link {
+  color: rgb(229, 30, 30);
+}
+
+/* mouse over link */
+a:hover {
+  color: #f2184f;
+}
+
+/* header start */
+@media (max-width: 575.98px) {
+.custom-header {
+    display: none;
+  }
+
+}
+
+.nav-shadow{
+
+  -webkit-box-shadow: 3px 19px 34px -7px rgba(0,0,0,0.34);
+-moz-box-shadow: 3px 19px 34px -7px rgba(0,0,0,0.34);
+box-shadow: 3px 19px 34px -7px rgba(0,0,0,0.34);
+}
+
+/* header end */
+
+
+
+
+
+.animateCharcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
+
