@@ -1,0 +1,2 @@
+This application is buil on  Node.js v16.13.0 . To run this app install Node.js v16.13.0 or later versoin of nodejs .
+open client in node and run command npm start . 
